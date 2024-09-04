@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="elements">
+            <input type="text" class="calculator-screen" id="screen"  disabled>
+            <div class="calculator-buttons">
+                <button class="button" value="1" onclick="clickHandle('1')">1</button>
+                <button class="button" value="2" onclick="clickHandle('2')">2</button>
+                <button class="button" value="3" onclick="clickHandle('3')">3</button>
+                <button class="button-operator" onclick="clearDisplay()">clear</button>
+
+                <button class="button" value="4" onclick="clickHandle('4')">4</button>
+                <button class="button" value="5" onclick="clickHandle('5')">5</button>
+                <button class="button" value="6" onclick="clickHandle('6')">6</button>
+                <button class="button-operator" onclick="clickHandle('+')">+</button>
+
+                <button class="button" value="7" onclick="clickHandle('7')">7</button>
+                <button class="button" value="8" onclick="clickHandle('8')">8</button>
+                <button class="button" value="9" onclick="clickHandle('9')">9</button>
+                <button class="button-operator" onclick="clickHandle('-')">-</button>
+
+                <button class="button-operator" onclick="clickHandle('*')">x</button>
+                <button class="button-operator" onclick="clickHandle('/')">/</button>
+                <button class="button-operator" onclick="calculate()">=</button>
+
+            </div>
+            
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
