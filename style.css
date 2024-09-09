@@ -10,13 +10,16 @@ body{
 }
 .container{
     border-radius: 10px;
-    width: 250px;
+    width: 280px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     align-items: center;
     
 }
+.element{
+    padding: 1px ;
+}
 .container .calculator-screen{
-    width: 100%;
+    width: 93%;
     height: 60px;
     background-color: #252525;
     border: none;
@@ -31,12 +34,13 @@ body{
 .button{
     background-color: #e0e0e0;
     border: none;
-    padding: 20px;
+    padding: 28px;
     outline: none;
 }
 .button-operator{
     background-color: #e0e0e0;
     border: none;
-    padding: 20px;
+    padding: 29px;
     outline: none;
+    margin: 1PX;
 }
